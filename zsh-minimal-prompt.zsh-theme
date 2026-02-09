@@ -50,5 +50,6 @@ git_prompt_info() {
 # ------------------------------------------------------------
 # Prompt (two-line, left-only)
 # ------------------------------------------------------------
-PROMPT='%{$fg[blue]%}%~%{$reset_color%} $(git_prompt_info)
+PROMPT='%{$fg[green]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}
+%{$fg[blue]%}%~%{$reset_color%} $(git_prompt_info)
 %b%F{244}$ %f'
